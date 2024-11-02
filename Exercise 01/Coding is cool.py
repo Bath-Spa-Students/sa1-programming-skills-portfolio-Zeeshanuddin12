@@ -1,4 +1,4 @@
-# Assigning the first word to the variable word1
+# Assigning the first word to the variable word1.
 word1 = "Coding" 
 
 # Assigning the second word to the variable word2
