@@ -1,11 +1,11 @@
-#create a list of strings with names in it.
-Names = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]
+#Initializing the list of names.
+list_names = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]
 
-#Enter the string you want to search for in the string list above.
-Search_name = "Sam"
+#Inputing the search term.
+search_term = input("Enter a name to search: ")
 
-#Look for the name in the above list.
-if Search_name in Names :
-    print("{Search_name} in present in the list.")
+#Checking whether the inputed name is in the list and print the result
+if search_term in list_names:
+    print(f"'{search_term}' was found in the list.")
 else:
-    print("{Search_name}is not present in the list.")
+    print(f"'{search_term}' was not found in the list.")
